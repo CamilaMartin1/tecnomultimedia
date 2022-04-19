@@ -1,0 +1,101 @@
+//Alumna: Camila Irene Martin. Comision: 3
+PFont font;
+void setup(){
+  size(400,400);
+  font = loadFont("SegoeUI-Bold-48.vlw");
+  textFont(font);  
+}
+void draw (){
+background (204,153,255);
+fill(255,30);
+noStroke();
+ellipse(200,200,370,400);
+noStroke();
+fill(255,229,204);
+rect(160,320,80,100);
+stroke(0);
+rect(100,80,200,250,100,100,100,100);
+fill(255);
+ellipse(160,200,50,30);
+ellipse(240,200,50,30);
+fill(255,204,255,80);
+noStroke();
+circle(146,250,50);
+circle(253,249,50);
+fill(51,25,0);
+circle(158,201,20);
+circle(238,201,20);
+fill(0);
+circle(158,202,10);
+circle(238,202,10);
+fill(255);
+noStroke();
+circle(241,196,3);
+circle(162,197,3);
+stroke(0);
+strokeWeight(2);
+line(200,217,199,239);
+line(200,240,209,240);
+line(157,324,158,366);
+line(160,365,24,397);
+line(239,328,239,360);
+line(237,361,366,397);
+line(159,365,160,390);
+line(160,389,240,390);
+line(237,362,240,389);
+line(220,176,247,176)
+;
+line(247,176,267,182);
+line(179,177,152,178);
+line(151,178,134,185
+);
+noFill();
+beginShape();
+curveVertex(173,278);
+curveVertex(179,290);
+curveVertex(198,293);
+curveVertex(211,292);
+curveVertex(226,283);
+curveVertex(233,274);
+endShape();
+fill(102,102,255);
+noStroke();
+triangle(159,367,160,399,25,399);
+triangle(239,363,241,399,365,399);
+rect(159,391,100,20);
+fill(153,153,0);
+noStroke();
+circle(140,128,70);
+circle(243,125,70);
+circle(167,97,70);  
+circle(222,99,70);
+circle(284,123,70);
+circle(106,152,70);
+circle(253,117,70);
+circle(299,168,70);
+circle(100,204,70);
+circle(79,174,70);
+circle(310,208,70);
+circle(94,248,70);
+circle(303,254,70);
+circle(94,286,70);
+circle(302,301,70);
+circle(282,331,70);
+circle(318,342,70);
+circle(316,280,70);
+circle(84,224,70);
+circle(95,310,70);
+circle(120,333,70);
+circle(81,346,70);
+circle(67,296,70);
+circle(73,261,70);
+circle(112,122,70);
+textSize(60);
+fill(51,0,51,150);
+text("Camila",90,60);
+}
+
+
+void mousePressed(){
+println(mouseX,mouseY);
+}
